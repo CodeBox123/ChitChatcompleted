@@ -1,0 +1,171 @@
+body
+{
+background-image: url("default.png");
+}
+
+#header
+{
+    color: white;
+    font-family: 'Allura', cursive;
+    background: linear-gradient(to right top,rgba(245, 47, 255, 0.8), rgba(146, 180, 227, 0.8), rgba(234, 151, 241, 0.8));
+    font-size: 60px;
+    letter-spacing: 10px;
+    margin-top: 80px;
+
+}
+
+#theme{
+    border-radius: 15px;
+    background-color: aliceblue;  
+}
+
+.header img
+{
+	width: 80px;
+    margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255, 255, 255, 0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+    
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;
+    border-radius: 15px;
+    background-image: linear-gradient(to right top,#5f2093, #9725d9 , #8318c1, #6a0aaa, #630094);
+    color: white;
+    border-style: hidden;
+    height: 50px;
+    font-size: large;
+    font-family: 'DynaPuff', cursive;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; 
+    float: right;
+}
+
+
+#output
+{
+    overflow: auto;
+	padding: 10px; 
+    width:80%;background: 
+    rgba(255,255,255,0.8);
+    border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+.input_div_message_page
+{ 
+    padding-top: 20px;
+	position: fixed;bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.input_div_message_page #message
+{
+	width: 50%;
+}
+.input_div_message_page button
+{
+    background-image: linear-gradient(to right top, #6f33f1, #9a25d9, #c118bb, #aa0a75, #940043);
+	margin-top: 15px;
+	width: 30%; 
+
+}
+
+.color_white
+{
+	color: white
+}
+
+.message_h4
+{
+	padding-left:5px;
+    color:grey;
+}
+
+#inputs{
+    height:350px;
+    background-image: url("Banner.png");
+}
+
+#banner{
+    height: 100px;
+    width: 900;
+}
+
+a{
+   color: black; 
+}
+
+h2{
+    font-family: 'DynaPuff', cursive;
+}
+
+h4{
+    font-family: 'Phudu', cursive;
+    color: rgb(255, 255, 255);
+}
+
+#textinput{
+    width: 200px;
+}
+#memeimg{
+    height: 300px;
+}
+
+#intro{
+    font-size: 20px;
+}
+
+#back{
+    font-size: 20px; 
+    float: left;
+}
+
+#send{
+    float: right;
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
